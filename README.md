@@ -18,11 +18,11 @@ The app has three modules:
 
 ![App Modules](https://github.com/sunmughan/Quarantine_Alert/blob/master/assets/modules.png)
 
-Contribution
+## Contribution ##
 If you want to contribute us in making the app better and more userful, you're most welcome.
 Kindly contact me: sunmughan@gmail.com
 
-Credits
+## Credits ##
 MIT (Private Kit)
 Sunmughan Swamy
 Gaurav Shukla
