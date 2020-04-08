@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <RelativeLayout
+        android:id="@+id/rlpost"
+        android:layout_margin="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:id="@+id/rlnamecircle1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:src="@drawable/pdficon"
+                android:id="@+id/image"
+                android:layout_width="50dp"
+                android:layout_height="50dp" />
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/tvname1"
+            android:layout_toEndOf="@+id/rlnamecircle1"
+            android:layout_toStartOf="@+id/tvname2"
+            android:layout_width="match_parent"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_height="wrap_content"
+            android:text="AND_Gate.jpg"
+            android:fontFamily="@font/quicksand_medium"
+            android:textColor="@android:color/black"
+            android:textSize="15dp">
+        </TextView>
+        <TextView
+            android:id="@+id/tvname2"
+            android:layout_alignParentEnd="true"
+            android:layout_width="wrap_content"
+            android:layout_marginStart="6dp"
+            android:layout_marginTop="5dp"
+            android:layout_height="wrap_content"
+            android:text="View"
+            android:fontFamily="@font/quicksand_semibold"
+            android:textColor="@color/green"
+            android:textSize="15dp">
+        </TextView>
+
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/lv4"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:visibility="gone"
+        android:layout_below="@+id/rlpost"
+        android:background="@android:color/darker_gray"
+        android:orientation="vertical"></LinearLayout>
+</LinearLayout>

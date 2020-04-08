@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="COVID-19">
+        <menu>
+            <item
+                android:id="@+id/inidaTracker"
+                android:icon="@drawable/indiatracker"
+                android:title="India COVID-19 Tracker">
+            </item>
+            <item
+                android:id="@+id/nav_global_cases"
+                android:icon="@drawable/ic_global"
+                android:title="@string/menu_global_cases" />
+            <item
+                android:id="@+id/nav_symptoms"
+                android:icon="@drawable/ic_virus"
+                android:title="@string/menu_symptoms" />
+            <item
+                android:id="@+id/nav_precautions"
+                android:icon="@drawable/ic_precautions"
+                android:title="@string/menu_precautions" />
+            <item
+                android:id="@+id/nav_guidelines"
+                android:icon="@drawable/ic_guidelines"
+                android:title="@string/menu_guidelines" />
+            <item
+                android:id="@+id/nav_emergency_guide"
+                android:icon="@drawable/ic_emergency"
+                android:title="@string/menu_emergency_guide" />
+            <item
+                android:id="@+id/nav_helpline"
+                android:icon="@drawable/call"
+                android:title="@string/helpline" />
+            <item
+                android:id="@+id/nav_donations"
+                android:icon="@drawable/donations"
+                android:title="@string/donations" />
+            <item
+                android:id="@+id/nav_forms"
+                android:icon="@drawable/assignment_24px"
+                android:title="@string/forms" />
+            <item
+                android:id="@+id/nav_report"
+                android:icon="@drawable/report"
+                android:title="@string/report" />
+        </menu>
+    </item>
+
+    <item android:title="ACTIONS TO TAKE WHEN">
+
+        <menu>
+            <item
+                android:id="@+id/nav_aminfected"
+                android:icon="@drawable/ic_me"
+                android:title="@string/aminfected" />
+            <item
+                android:id="@+id/nav_knowinfected"
+                android:icon="@drawable/ic_know"
+                android:title="@string/someinfected" />
+            <item
+                android:id="@+id/nav_hisolation"
+                android:icon="@drawable/ic_home"
+                android:title="@string/homeiso" />
+        </menu>
+
+    </item>
+
+    <item android:title="SOCIAL LINKS">
+        <menu>
+            <item
+                android:id="@+id/nav_telegram"
+                android:icon="@drawable/telegram"
+                android:title="@string/telegram" />
+            <item
+                android:id="@+id/nav_whatsapp"
+                android:icon="@drawable/whatsapp"
+                android:title="@string/whatsapp" />
+        </menu>
+    </item>
+
+    <item android:title="APPLICATION">
+        <menu>
+            <item
+                android:id="@+id/nav_feedback"
+                android:icon="@drawable/ic_heart"
+                android:title="@string/menu_feedback" />
+            <item
+                android:id="@+id/nav_credits"
+                android:icon="@drawable/ic_copyright"
+                android:title="@string/menu_credits" />
+            <item
+                android:id="@+id/nav_contact"
+                android:icon="@drawable/ic_contact"
+                android:title="@string/menu_contact" />
+        </menu>
+    </item>
+
+
+
+</menu>

@@ -1,0 +1,310 @@
+<resources>
+    <string name="app_name">Quarantine Alert</string>
+
+    <string name="splash_title">Quarantine Alert</string>
+    <string name="splash_message">Awareness, Home Isolation and Health Tips</string>
+    <string name="retry">Retry</string>
+
+    <string name="home_bottom_dialog_title">Coronavirus COVID-19 Global Cases</string>
+    <string name="home_bottom_country_title">COVID-19 Cases in %1$s</string>
+
+    <string name="death_total">Total\ncasualties</string>
+    <string name="confirmed_total">Total\nconfirmed</string>
+    <string name="recovered_total">Total\nrecovered</string>
+    <string name="update_at">Update at %1$s</string>
+
+    <string name="symptoms">Symptoms</string>
+    <string name="fever">Fever</string>
+    <string name="cough">Dry cough</string>
+    <string name="difficulty_breathing">Difficulty\nbreathing</string>
+    <string name="runny_nose">Nasal\nsecretions</string>
+    <string name="sore_throat">Throat\npain</string>
+
+    <string name="scare_virus">Learn about the symptoms of Covid 19</string>
+    <string name="consult_now">Consult now</string>
+    <string name="consult_message">Take your precautions and don\'t ignore the symptoms. See what the symptoms are today.</string>
+
+    <string name="search_hint">Search…</string>
+    <string name="your_location">Your location</string>
+
+    <string name="emergency_guide">Emergency Guide</string>
+    <string name="videos_text">Videos</string>
+    <string name="know_more">Know more</string>
+
+    <string name="scare_emergency">Avoid the spread of Covid 19</string>
+    <string name="scare_emergency_message">If you suspect that you are infected or someone close to you, see what are the appropriate measures to take.</string>
+
+    <string name="email_message">Send email to c19care@gmail.com</string>
+
+    <!-- Error message -->
+    <string name="network_error_message">Please check your internet connection and try again.</string>
+    <string name="default_error_message">An error occurred, please try again.</string>
+
+    <!-- Menu -->
+    <string name="menu_global_cases">Global cases</string>
+    <string name="menu_symptoms">Symptoms</string>
+    <string name="menu_stages">Stages of COVID-19</string>
+    <string name="menu_emergency_guide">Emergency guide</string>
+    <string name="menu_feedback">Feedback</string>
+    <string name="menu_credits">Credits</string>
+    <string name="menu_contact">Contact us</string>
+    <string name="feedbk">Feedback <font fgcolor='#ffff4444'>*</font></string>
+
+    <!-- Symptoms -->
+    <string name="symptoms_title_1">What is COVID-19?</string>
+    <string name="symptoms_desc_1">COVID-19 is the most recently discovered infectious disease caused by the coronavirus. Both the new virus and the disease were unknown before the outbreak in Wuhan, China, in December 2019.</string>
+    <string name="symptoms_title_2">What are the symptoms of COVID-19?</string>
+    <string name="symptoms_desc_2">The most common symptoms of COVID-19 are fever, tiredness, and dry cough. Some patients may experience pain, nasal congestion, runny nose, sore throat, or diarrhea. These symptoms are usually mild and appear gradually. Some people become infected but do not develop any symptoms and are not ill. Most people (about 80%) recover from the disease without needing any special treatment. About 1 in 6 people who get COVID-19 develop a serious illness and have trouble breathing. Older people and those with underlying medical conditions, such as high blood pressure, heart problems, or diabetes, are more likely to develop serious illness. About 2% of people who have contracted the disease have died. People with fever, cough, and shortness of breath should seek medical attention.</string>
+    <string name="symptoms_title_3">Do you suspect that you or someone close to you may be infected?</string>
+
+    <!-- Feedback -->
+    <string name="feedback_send">Send</string>
+    <string name="feedback_hint_email">Email</string>
+    <string name="feedback_hint_feedback">Write your feedback here</string>
+    <string name="feedback_email_error">Enter a valid email</string>
+    <string name="feedback_feedback_error">Enter a feedback</string>
+    <string name="feedback_send_successful">Your feedback was sent. Thanks!</string>
+
+    <!-- Emergency -->
+    <string name="emergency_head">Avoid the spread of Coronavirus</string>
+    <string name="emergency_title_1">How is COVID-19 spread?</string>
+    <string name="emergency_desc_1">A person can get COVID-19 from contact with someone who is infected with the virus. The disease can spread from person to person through droplets from the nose or mouth that are thrown out when an infected person coughs or exhales. These droplets fall on objects and surfaces around the person, so other people can get COVID-19 if they touch these objects or surfaces and then touch their eyes, nose, or mouth. They can also be spread by inhaling droplets that a person with COVID-19 has spread by coughing or exhaling. That is why it is important to stay more than 1 meter (3 feet) away from a person who is ill.The WHO is studying ongoing research into ways of spreading COVID-19 and will continue to report updated results.</string>
+    <string name="emergency_title_2">Can the virus that causes COVID-19 be transmitted through the air?</string>
+    <string name="emergency_desc_2">Studies to date suggest that the virus causing COVID-19 is transmitted primarily by contact with respiratory droplets, rather than by air.</string>
+    <string name="emergency_title_3">Is it possible to get COVID-19 from contact with a person who does not have any symptoms?</string>
+    <string name="emergency_desc_3">The main way of spreading the disease is through the respiratory droplets expelled by someone when coughing. The risk of getting COVID-19 from someone with no symptoms is very low. However, many people who get COVID-19 have only mild symptoms. This is particularly true in the early stages of the disease.</string>
+    <string name="emergency_title_4">What can I do to protect myself and prevent the spread of the disease?</string>
+    <string name="emergency_desc_4">Keep up to date with the latest information on the COVID-19 outbreak, which can be accessed on the WHO website and through relevant public health authorities at the national and local levels. Cases have been reported in many countries around the world, and outbreaks have occurred in several of them. Chinese and other authorities have managed to slow or stop the outbreak progress, but the situation is unpredictable and the latest news needs to be checked regularly.</string>
+    <string name="emergency_prevent_1">Wash your hands thoroughly and often using an alcohol-based disinfectant or soap and water.</string>
+    <string name="emergency_prevent_2">Keep a minimum distance of 1 meter (3 feet) between you and anyone who coughs or sneezes.</string>
+    <string name="emergency_prevent_3">Avoid touching your eyes, nose and mouth</string>
+    <string name="emergency_prevent_4">Both you and those around you should make sure you maintain good airway hygiene. That means covering your mouth and nose with your elbow bent or with a tissue when you cough or sneeze. The used handkerchief should be discarded immediately.</string>
+    <string name="emergency_prevent_5">Stay home if you are not feeling well. If you have a fever, cough, and shortness of breath, seek medical attention and call ahead. Follow the instructions of the local health authorities.</string>
+
+    <!-- Thanks -->
+    <string name="thanks_title">Thanks and their respective credits to all who made this application possible!</string>
+    <string name="thanks_data">Thanks for the data to:</string>
+    <string name="thanks_data_author"><u>CSSE</u></string>
+    <string name="thanks_info">Thanks for the information to:</string>
+    <string name="thanks_info_author"><u>OMS</u></string>
+    <string name="thanks_api">Thanks for the API to:</string>
+    <string name="thanks_api_author"><u>Nuttaphat Arunoprayoch</u></string>
+    <string name="thanks_icons">Thanks for the icons to:</string>
+    <string name="thanks_icons_author_1"><u>Flaticon</u></string>
+    <string name="thank_and">y</string>
+    <string name="thanks_icons_author_2"><u>Freepik</u></string>
+    <string name="thanks_design">Thanks for the design inspiration to my friend:</string>
+    <string name="thanks_design_author"><u>Krishna Vaishnav</u></string>
+    <string name="stagesOfCovid">Stages of COVID-19</string>
+    <string name="stage1"><b>Stage 1:</b> When cases are only imported from affected countries and therefore only those who have travelled abroad test positive. At this stage there is no spread of the disease locally.></string>
+    <string name="Stage1">Stage 1: Understand with the example of Ankur</string>
+    <string name="stage1_descp">Amid fears of Corona, Ankur came to his home from London to India. He did not have fever at the airport. He was allowed to go home. But he was given an affidavit at the airport that he would be imprisoned in his house for 14 days. And when fever comes, he will contact this number. After going home, he complied with the conditions of the affidavit. He was imprisoned in the house. He even kept distance from the members of the household. Ankurki Mummy said - nothing happened to you. Do not remain isolated. After so many days, you will get the food of the house, in the kitchen, I serve hot hot food. This time Ankur got angry. He shouted to Mummy. Tears spilled in Mummy eye. Vebura agreed.
+        Sprouts continue to be the most isolated (isolate).
+        On the 6-7th day, sprouts started having symptoms like fever, cold cough. He called the helpline. Corona test was performed. He turned out positive. His family members were also tested. All of them turned out to be negative. One km area was questioned the most. Everyone was tested.
+        Everyone said that no one saw Ankur coming out of the house. Since he had isolated himself well, he did not spread the corona to anyone else. Ankurki was younger. The symptoms of corona were very minor. Just fever, cold, cough, body pain etc. occurred. After 7 days of treatment, he recovered completely and came home after being discharged from the hospital. The mother, who had felt bad yesterday, is thankfully today that there is no corona all over the house.
+        \n  \nConclusion: This is the first stage where the corona is only in a man from abroad. He did not give it to anyone else.
+    </string>
+    <string name="Stage2">Stage 2- Understand the example of Aniket who became Corona positive by mistake of another</string>
+    <string name="stage2_descp">Aniket, who lives in Mumbai, had fever and cough. The health officer took all the information from Aniket about his past days. That information showed that he did not go abroad. But he has come in contact with a person who has recently come abroad. He went to a jewelery shop to buy jewelry the day before yesterday. His boss Sethji had recently returned from Italy.
+        Sethji came from abroad. He did not have fever at the airport. That is why he was allowed to go home. But his affidavit was made to be filled, that he would remain completely alone for the next 14 days and would not leave the house. Will also stay away from family members.
+        But, in the pursuit of earning, he flew the flag of that affidavit filled at the airport. At home, he met with the most love, touched others and let himself be touched. Eat your favorite vegetable in the evening and go to your jewelry shop the next day.
+        On the 6th day, Sethji got fever. His family also got fever. The old mother was also among the family members. All came out positive in the investigation. The man who came from abroad got himself positive, then he also made the housemates positive. In Sethjidukan, 450 people came in contact, like servants, customers etc.
+        One of them was Aniket Bhitha.
+        Now: Isolating all 450 people. It is a second stage even if there is a positive in them.
+        The fear is that not every one of these 450 people will know where they have gone, how many people they must have met !!!!
+        \n \nConclusion: Overall stage 2 means that the man who has come corona positive did not go abroad. But he has come in contact with a person who has recently come abroad.</string>
+    <string name="Stage3">Stage 3: Understand the example of Ankita, who did not know how she got infected?</string>
+    <string name="stage3_descp">Ankitako was hospitalized due to cold, cough, fever, her corona positive came there, but she never went abroad. Nor did she come in contact with anyone who has come abroad recently.
+        That is, now we do not know the source from where the Ankita Corona finally came from?
+        In Stage 1 the man himself came from abroad.
+        Stage 2 knew that there were sources. We tested every person they came in contact with and isolated them for 14 days.
+        In Stage 3 you will not find the source of coronavirus inferior.
+        \n \nConclusion: If we do not know the source, we cannot capture it. We cannot isolate the person. Where it will not know the source and will inadvertently infect many people.</string>
+    <string name="Stage4">Stage 4: Example of infinity Who is explaining it by sending a video from Italy?</string>
+    <string name="stage4_descp">Suppose Anant, who lives in Delhi, is trapped in Italy. He has sent a video from there to warn the people of India that if you do not stop the infection of corona in seconds or third stage then conditions like Italy will happen.
+        In Italy, the fourth stage of the virus has reached the mass level above the community level. Now neither SARES can detect nor does any way of stopping the epidemic be understood. That is why in Italy it is said that let the old men die, save the children and the young men.
+        You most importantly, why should we fear stage 3 and understand how it arises?
+        Sethji came in contact with 450 people. As soon as the news of his being positive spread, all his customers, servants, neighbors of the house, neighbors of the shop, milkmen, utensils, chai wala… all ran to the hospital. The total was 440 people.
+        10 people have still not been found. Police and Health Department team are looking for them.
+        If any of those 10 entered any temple etc. then this virus will spread a lot.
+        \n \nConclusion: This is Stage 3 where you dont know the source.
+        Public curfew is an effective way to prevent stage 3. Photo: Artwork of Sand Artist Sudarshan Patnaik.
+        Stoppage of stage 3
+        14-day lockdown means complete lockout. Put the public curfew. Lock the city completely for 14 days. Dont let anyone get out.
+        What will happen with this lockout?
+        Every man is locked in the house. In such a situation, a man who has not come in contact with an infected person is safe. The person who is an unknown source is also locked in his house. When he falls ill, he will arrive at the hospital. It will be known that this is the unknown source.
+        \n \nConclusion: This unknown source may have infected 4 more people from his home, but the rest of the city survived. If there was no lockdown then he would not come to Sourcepakad and he would have spread the corona to thousands of such people. Then these thousand unknown people would spread it among millions. So the entire city survived the lockdown and the unknown source was caught.
+        On March 22, a picture of Janata curfew in which policemen are giving people flowers to convince them to stay in the house.
+        What to do if stage 2 does not change to stage 3?</string>
+    <string name="forms">Forms</string>
+    <string name="contitle">Help us developing this app more featured</string>
+    <string name="youranswer">Your answer</string>
+    <string name="name">Name <font fgcolor='#ffff4444'>*</font></string>
+    <string name="number">Number <font fgcolor='#ffff4444'>*</font></string>
+    <string name="email">Email <font fgcolor='#ffff4444'>*</font></string>
+    <string name="devp">Your professional developer profile (Github or Linkedin) <font fgcolor='#ffff4444'>*</font></string>
+    <string name="selprof">Select your preference for contribution <font fgcolor='#ffff4444'>*</font></string>
+    <string name="submit">Submit</string>
+    <string name="seldiaTitle">Quarantine yourself</string>
+    <string name="howdoyou">How do you feel right now ? <font fgcolor='#ffff4444'>*</font></string>
+    <string name="doyouhavefever">Do you have fever ? <font fgcolor='#ffff4444'>*</font></string>
+    <string name="location">Location<font fgcolor='#ffff4444'>*</font></string>
+    <string name="selvol">Select your preffered option for volunteering <font fgcolor='#ffff4444'>*</font></string>
+    <string name="myth_bustertxt">Coronavirus advice for the public: Myth busters</string>
+    <string name="consult_message2">Taking a hot bath will not prevent you from catching COVID-19. Your normal body temperature remains around 36.5°C to 37°C, regardless of the temperature of your bath or shower.</string>
+    <string name="consult_message3">We have compiled an FAQ (frequently asked questions) regarding the coronavirus, focusing on its impact on our product availability and supply chain. Let us see.</string>
+    <string name="consult_message4">Government of India is taking all necessary steps to ensure that we are prepared well to face the challenge and threat posed by the growing pandemic of COVID 19 – the Corona Virus. With active support of the people of India. Here we have a list of helplie number of states.</string>
+    <string name="myth_title">What is CoronaVirus?</string>
+    <string name="myth_des1">Coronaviruses are a large family of viruses which may cause illness in animals or humans.  In humans, several coronaviruses are known to cause respiratory infections ranging from the common cold to more severe diseases such as Middle East Respiratory Syndrome (MERS) and Severe Acute Respiratory Syndrome (SARS). The most recently discovered coronavirus causes coronavirus disease COVID-19</string>
+
+    <string name="myth_1">There is no reason to believe that cold weather can kill the new coronavirus or other diseases. The normal human body temperature remains around 36.5°C to 37°C, regardless of the external temperature or weather. The most effective way to protect yourself against the new coronavirus is by frequently cleaning your hands with alcohol-based hand rub or washing them with soap and water.\n</string>
+    <string name="myth_2">Taking a hot bath will not prevent you from catching COVID-19. Your normal body temperature remains around 36.5°C to 37°C, regardless of the temperature of your bath or shower. Actually, taking a hot bath with extremely hot water can be harmful, as it can burn you. The best way to protect yourself against COVID-19 is by frequently cleaning your hands. By doing this you eliminate viruses that may be on your hands and avoid infection that could occur by then touching your eyes, mouth, and nose.\n</string>
+    <string name="myth_3">To date there has been no information nor evidence to suggest that the new coronavirus could be transmitted by mosquitoes. The new coronavirus is a respiratory virus which spreads primarily through droplets generated when an infected person coughs or sneezes, or through droplets of saliva or discharge from the nose. To protect yourself, clean your hands frequently with an alcohol-based hand rub or wash them with soap and water. Also, avoid close contact with anyone who is coughing and sneezing.\n</string>
+    <string name="myth_4">No. Hand dryers are not effective in killing the 2019-nCoV. To protect yourself against the new coronavirus, you should frequently clean your hands with an alcohol-based hand rub or wash them with soap and water. Once your hands are cleaned, you should dry them thoroughly by using paper towels or a warm air dryer.\n</string>
+    <string name="myth_5">UV lamps should not be used to sterilize hands or other areas of skin as UV radiation can cause skin irritation.\n</string>
+    <string name="myth_6">Thermal scanners are effective in detecting people who have developed a fever (i.e. have a higher than normal body temperature) because of infection with the new coronavirus. However, they cannot detect people who are infected but are not yet sick with fever. This is because it takes between 2 and 10 days before people who are infected become sick and develop a fever.\n</string>
+    <string name="myth_7">No. Spraying alcohol or chlorine all over your body will not kill viruses that have already entered your body. Spraying such substances can be harmful to clothes or mucous membranes (i.e. eyes, mouth). Be aware that both alcohol and chlorine can be useful to disinfect surfaces, but they need to be used under appropriate recommendations.\n</string>
+    <string name="myth_8">UV lamps should not be used to sterilize hands or other areas of skin as UV radiation can cause skin irritation.\n</string>
+    <string name="myth_9">No. Vaccines against pneumonia, such as pneumococcal vaccine and Haemophilus influenza type B (Hib) vaccine, do not provide protection against the new coronavirus. The virus is so new and different that it needs its own vaccine. Researchers are trying to develop a vaccine against 2019-nCoV, and WHO is supporting their efforts. Although these vaccines are not effective against 2019-nCoV, vaccination against respiratory illnesses is highly recommended to protect your health.\n</string>
+    <string name="myth_10">No. There is no evidence that regularly rinsing the nose with saline has protected people from infection with the new coronavirus. There is some limited evidence that regularly rinsing nose with saline can help people recover more quickly from the common cold. However, regularly rinsing the nose has not been shown to prevent respiratory infections.\n</string>
+    <string name="myth_11">Garlic is a healthy food that may have some antimicrobial properties. However, there is no evidence from the current outbreak that eating garlic has protected people from the new coronavirus.\n</string>
+    <string name="myth_12">People of all ages can be infected by the new coronavirus (2019-nCoV). Older people, and people with pre-existing medical conditions (such as asthma, diabetes, heart disease) appear to be more vulnerable to becoming severely ill with the virus. WHO advises people of all ages to take steps to protect themselves from the virus, for example by following good hand hygiene and good respiratory hygiene.\n</string>
+    <string name="myth_13">No, antibiotics do not work against viruses, only bacteria. The new coronavirus (2019-nCoV) is a virus and, therefore, antibiotics should not be used as a means of prevention or treatment. However, if you are hospitalized for the 2019-nCoV, you may receive antibiotics because bacterial co-infection is possible.\n</string>
+    <string name="myth_14">To date, there is no specific medicine recommended to prevent or treat the new coronavirus (2019-nCoV). However, those infected with the virus should receive appropriate care to relieve and treat symptoms, and those with severe illness should receive optimized supportive care. Some specific treatments are under investigation, and will be tested through clinical trials. WHO is helping to accelerate research and development efforts with a range or partners.\n</string>
+
+    <string name="frag_btm">All Data Provide by \nUnicef, NewsApi, and KawalCorona.com</string>
+
+    <string name="faq_1">Coronaviruses are a large family of viruses which may cause illness in animals or humans. In humans, several coronaviruses are known to cause respiratory infections ranging from the common cold to more severe diseases such as Middle East Respiratory Syndrome (MERS) and Severe Acute Respiratory Syndrome (SARS). The most recently discovered coronavirus causes coronavirus disease COVID-19.\n</string>
+    <string name="faq_2">COVID-19 is the infectious disease caused by the most recently discovered coronavirus. This new virus and disease were unknown before the outbreak began in Wuhan, China, in December 2019.\n</string>
+    <string name="faq_3">The most common symptoms of COVID-19 are fever, tiredness, and dry cough. Some patients may have aches and pains, nasal congestion, runny nose, sore throat or diarrhea. These symptoms are usually mild and begin gradually. Some people become infected but don’t develop any symptoms and don\'t feel unwell. Most people (about 80%) recover from the disease without needing special treatment. Around 1 out of every 6 people who gets COVID-19 becomes seriously ill and develops difficulty breathing. Older people, and those with underlying medical problems like high blood pressure, heart problems or diabetes, are more likely to develop serious illness. People with fever, cough and difficulty breathing should seek medical attention.\n</string>
+    <string name="faq_4">People can catch COVID-19 from others who have the virus. The disease can spread from person to person through small droplets from the nose or mouth which are spread when a person with COVID-19 coughs or exhales. These droplets land on objects and surfaces around the person. Other people then catch COVID-19 by touching these objects or surfaces, then touching their eyes, nose or mouth. People can also catch COVID-19 if they breathe in droplets from a person with COVID-19 who coughs out or exhales droplets. This is why it is important to stay more than 1 meter (3 feet) away from a person who is sick. WHO is assessing ongoing research on the ways COVID-19 is spread and will continue to share updated findings.\n</string>
+    <string name="faq_5">Studies to date suggest that the virus that causes COVID-19 is mainly transmitted through contact with respiratory droplets rather than through the air. See previous answer on “How does COVID-19 spread?.</string>
+    <string name="faq_6">The risk depends on where you are - and more specifically, whether there is a COVID-19 outbreak unfolding there. For most people in most locations the risk of catching COVID-19 is still low. However, there are now places around the world (cities or areas) where the disease is spreading. For people living in, or visiting, these areas the risk of catching COVID-19 is higher. Governments and health authorities are taking vigorous action every time a new case of COVID-19 is identified. Be sure to comply with any local restrictions on travel, movement or large gatherings. Cooperating with disease control efforts will reduce your risk of catching or spreading COVID-19. COVID-19 outbreaks can be contained and transmission stopped, as has been shown in China and some other countries. Unfortunately, new outbreaks can emerge rapidly. It’s important to be aware of the situation where you are or intend to go. WHO publishes daily updates on the COVID-19 situation worldwide. You can see these at https://www.who.int/emergencies/diseases/novel-coronavirus-2019/situation-reports/</string>
+    <string name="faq_7">While some western, traditional or home remedies may provide comfort and alleviate symptoms of COVID-19, there is no evidence that current medicine can prevent or cure the disease. WHO does not recommend self-medication with any medicines, including antibiotics, as a prevention or cure for COVID-19. However, there are several ongoing clinical trials that include both western and traditional medicines. WHO will continue to provide updated information as soon as clinical findings are available.\n</string>
+    <string name="faq_8">Not yet. To date, there is no vaccine and no specific antiviral medicine to prevent or treat COVID-2019. However, those affected should receive care to relieve symptoms. People with serious illness should be hospitalized. Most patients recover thanks to supportive care. Possible vaccines and some specific drug treatments are under investigation. They are being tested through clinical trials. WHO is coordinating efforts to develop vaccines and medicines to prevent and treat COVID-19.\n</string>
+    <string name="faq_9">No. The virus that causes COVID-19 and the one that caused the outbreak of Severe Acute Respiratory Syndrome (SARS) in 2003 are related to each other genetically, but the diseases they cause are quite different. SARS was more deadly but much less infectious than COVID-19. There have been no outbreaks of SARS anywhere in the world since 2003.\n</string>
+    <string name="faq_10">Only wear a mask if you are ill with COVID-19 symptoms (especially coughing) or looking after someone who may have COVID-19. Disposable face mask can only be used once. If you are not ill or looking after someone who is ill then you are wasting a mask. There is a world-wide shortage of masks, so WHO urges people to use masks wisely.\n</string>
+    <string name="faq_11">Remember, a mask should only be used by health workers, care takers, and individuals with respiratory symptoms, such as fever and cough. Before touching the mask, clean hands with an alcohol-based hand rub or soap and water Take the mask and inspect it for tears or holes. Orient which side is the top side (where the metal strip is). Ensure the proper side of the mask faces outwards (the coloured side). Place the mask to your face. Pinch the metal strip or stiff edge of the mask so it moulds to the shape of your nose. Pull down the mask’s bottom so it covers your mouth and your chin. After use, take off the mask; remove the elastic loops from behind the ears while keeping the mask away from your face and clothes, to avoid touching potentially contaminated surfaces of the mask. Discard the mask in a closed bin immediately after use. Perform hand hygiene after touching or discarding the mask – Use alcohol-based hand rub or, if visibly soiled, wash your hands with soap and water.\n</string>
+    <string name="faq_12">The “incubation period” means the time between catching the virus and beginning to have symptoms of the disease. Most estimates of the incubation period for COVID-19 range from 1-14 days, most commonly around five days. These estimates will be updated as more data become available.\n</string>
+    <string name="faq_13">Coronaviruses are a large family of viruses that are common in animals. Occasionally, people get infected with these viruses which may then spread to other people. For example, SARS-CoV was associated with civet cats and MERS-CoV is transmitted by dromedary camels. Possible animal sources of COVID-19 have not yet been confirmed.\n</string>
+    <string name="faq_14">While there has been one instance of a dog being infected in Hong Kong, to date, there is no evidence that a dog, cat or any pet can transmit COVID-19. COVID-19 is mainly spread through droplets produced when an infected person coughs, sneezes, or speaks. To protect yourself, clean your hands frequently and thoroughly.\n</string>
+    <string name="faq_15">It is not certain how long the virus that causes COVID-19 survives on surfaces, but it seems to behave like other coronaviruses. Studies suggest that coronaviruses (including preliminary information on the COVID-19 virus) may persist on surfaces for a few hours or up to several days. This may vary under different conditions (e.g. type of surface, temperature or humidity of the environment). If you think a surface may be infected, clean it with simple disinfectant to kill the virus and protect yourself and others. Clean your hands with an alcohol-based hand rub or wash them with soap and water. Avoid touching your eyes, mouth, or nose.\n</string>
+    <string name="faq_16">Yes. The likelihood of an infected person contaminating commercial goods is low and the risk of catching the virus that causes COVID-19 from a package that has been moved, travelled, and exposed to different conditions and temperature is also low.\n</string>
+    <string name="faq_17">Currently, the source of SARS-CoV-2, the coronavirus (CoV) causing COVID-19 is unknown. All available evidence suggests that SARS-CoV-2 has a natural animal origin and is not a constructed virus. SARS-CoV-2 virus most probably has its ecological reservoir in bats. SARS-CoV-2, belongs to a group of genetically related viruses, which also include SARS-CoV and a number of other CoVs isolated from bats populations. MERS-CoV also belongs to this group, but is less closely related.\n</string>
+    <string name="faq_18">The first human cases of COVID-19 were identified in Wuhan City, China in December 2019. At this stage, it is not possible to determine precisely how humans in China were initially infected with SARS-CoV-2. However, SARS-CoV, the virus which caused the SARS outbreak in 2003, jumped from an animal reservoir (civet cats, a farmed wild animal) to humans and then spread between humans. In a similar way, it is thought that SARS-CoV-2 jumped the species barrier and initially infected humans, but more likely through an intermediate host, that is another animal species more likely to be handled by humans - this could be a domestic animal, a wild animal, or a domesticated wild animal and, as of yet, has not been identified. Until the source of this virus is identified and controlled, there is a risk of reintroduction of the virus in the human population and the risk of new outbreaks like the ones we are currently experiencing.\n</string>
+    <string name="tellusbodytemp">Tell us your body temperature  <font fgcolor='#ffff4444'>*</font></string>
+    <string name="areyoufa">Are you experiencing unusual fatigue ?  <font fgcolor='#ffff4444'>*</font></string>
+    <string name="areyoubr">Are you experiencing unusual shorteness of breath ? <font fgcolor='#ffff4444'>*</font></string>
+    <string name="doyouhavecough">Do you have cough ? If yes which type of cough you have ? <font fgcolor='#ffff4444'>*</font></string>
+    <string name="whereareu">Where are you right now ? <font fgcolor='#ffff4444'>*</font></string>
+    <string name="menu_precautions">Precautions</string>
+    <string name="menu_guidelines">"Home quarantine guidelines "</string>
+    <string name="aminfected">I am Infected</string>
+    <string name="someinfected">Someone I know is Infected</string>
+    <string name="homeiso">Home Isolation</string>
+    <string name="precu1">Even though COVID-19 is a highly contagious disease, taking adequate precautions can help prevent you from being infected. The virus spread through small droplets from the nose or mouth of the affected person, when the person sneezes or coughs. These droplets can travel more than 1 meter from the source and might land on objects and surfaces. Other people can catch the virus by touching the surface and then touching their eyes, mouth or nose. The virus can also be caught by inhaling these droplets if the distance between the affected person is less than one meter.</string>
+    <string name="precu2">There is no data showing that the virus can be transmitted through air. Hence, follow these steps to protect yourselves and the ones around you.</string>
+    <string name="precu3">Since transmission mainly occurs through your hands, you should wash them frequently and thoroughly. It is recommended to use soap and water when available, else use a hand sanitizer that contains at least 60% alcohol and rub until it dries. Wash your hands frequently with soap and water for atleast 20 seconds or an alcohol based hand sanitizer.</string>
+    <string name="precu4">The virus can come in contact with your skin at any time, particularly your hands. If the contaminated skin touched your eyes, nose or mouth the virus can be transferred into your body thereby infecting you. Don\'t touch your face without washing your hands first.</string>
+    <string name="precu5"><![CDATA[Depending on the level of outbreak in your local community it is advised to keep a safe distance of at-least 1 meter (> 3 feet) from anyone who is coughing or sneezing. If you are in the vicinity when the person sneezes or coughs they can produce small droplets which you can inhale and become infected if the person is infected.]]></string>
+    <string name="precu6">If you are coughing or sneezing do so while covering your face with a bent elbow or a hand kerchief. This would help prevent the spread viruses such as Flu, Cold or COVID-19.</string>
+    <string name="guide1">Persons and household members should be educated about personal hygiene, basic IPC measures and how to care for the member of the family suspected of having COVID-19 disease as safely as possible to prevent the infection from spreading to household contacts.</string>
+    <string name="guide2">The persons and the family should be provided with ongoing support and education, and monitoring should continue for the duration of home care.</string>
+    <string name="guide3">Place the person in a well-ventilated single room (i.e . with open windows and an open door)</string>
+    <string name="guide4">Limit the movement of the person in the house and minimize shared space. Ensure that shared spaces (e.g., kitchen, bathroom) are well ventilated (e.g., keep windows open).</string>
+    <string name="guide5">Household members should stay in a different room or, if that is not possible. maintain a distance of at least 1 mt from the ill person.</string>
+    <string name="guide6">Limit the number of caregivers, ideally, assign one person who is in a good health and has no underlying chronic or immuno compromised conditions. Visitors should not be allowed until the person has completely recovered and has no signs and symptoms.</string>
+    <string name="guide7">Perform hand hygiene after any type of contact with person or their immediate environment. Hand hygiene should also be performed before and after preparing food, before eating, after using the toilets and whenever hands look dirty. If hands are not visibly dirty. an alcohol-based hand rub can be used For visibly dirty hands, use soap and water.</string>
+    <string name="guide8">When washing hands with soap and water, it is preferable to use disposable paper towels to dry hands. If these are not available. use clean cloth rowels and replace them when they become wet. Disposable paper towels should be disposed off in closed bins only.</string>
+    <string name="guide9">To contain respiratory secretions, a medical mask should be provided to the person and worn as much as possible. Materials used to cover the mouth and nose should be discarded or cleaned appropriately after use (e.g., wash handkerchiefs using regular soap or detergent and water).</string>
+    <string name="guide10">Caregivers should wear a tightly fitted medical mask that covers their mouth and nose when in the same room as the person. Masks should not be touched or handled during use If the mask gets wet or dirty from secretions, it must be replaced immediately with a new clean, dry mask. Remove the mask using the appropriate technique — that is, do not touch the front, but instead untie it Discard the mask immediately after use and perform hand hygiene.</string>
+    <string name="guide11">Avoid direct contact with body fluids, particularly oral or respiratory secretions, and stool. Use disposal gloves and a mask when providing oral or respiratory care and when handling stool, urine. and other waste. Perform hand hygiene before and after removing gloves and mask.</string>
+    <string name="guide12">Use dedicated linen and eating utensils for the person; these items should be cleaned with soap and water after use and may be re-used instead of being discarded. They should be washed at 60-90 oC with common household detergent, and dry thoroughly. Place contaminated linen into a laundry bag.</string>
+    <string name="guide13">Clean and disinfect daily surfaces that are frequently touched in the room where the person is being cared for, such as bedside tables. bed frames and other bedroom furniture. Regular household soap or detergent should be used first for cleaning, and then, after rinsing, regular household disinfectant containing 0.5% sodium hypochlorite ( i.e., equivalent to 5000 pm or 1 part bleach 5 to 9 parts water) should be applied.</string>
+    <string name="guide14">Clean and disinfect bathroom and toilet surfaces at least once daily. Regular household soap or detergent should be used first for cleaning. and then, after rinsing, regular household disinfectant containing 0.5% to 1% sodium hypochlorite should be applied.</string>
+    <string name="aminfected1">Stay home: People who are mildly ill with COVID-19 are able to isolate at home during their illness. You should restrict activities outside your home, except for getting medical care.</string>
+    <string name="aminfected2">Avoid public areas: Do not go to work, school, or public areas.</string>
+    <string name="aminfected3">Avoid public transportation: Avoid using public transportation, ride-sharing, or taxis.</string>
+    <string name="aminfected4">Stay away from others: As much as possible, you should stay in a specific room and away from other people in your home. Also, you should use a separate bathroom, if available.</string>
+    <string name="aminfected5">Stay away from others: As much as possible, you should stay in a specific room and away from other people in your home. Also, you should use a separate bathroom, if available.</string>
+    <string name="aminfected6"><![CDATA[Limit contact with pets & animals: You should restrict contact with pets and other animals while you are sick with COVID-19, just like you would around other people. Although there have not been reports of pets or other animals becoming sick with COVID-19, it is still recommended that people sick with COVID-19 limit contact with animals until more information is known about the virus.]]></string>
+    <string name="aminfected7">When possible, have another member of your household care for your animals while you are sick. If you are sick with COVID-19, avoid contact with your pet, including petting, snuggling, being kissed or licked, and sharing food. If you must care for your pet or be around animals while you are sick, wash your hands before and after you interact with pets and wear a facemask.</string>
+    <string name="aminfected8">If you have a medical appointment, call the healthcare provider and tell them that you have or may have COVID-19. This will help the healthcare provider’s office take steps to keep other people from getting infected or exposed.</string>
+    <string name="aminfected9">If you are sick: You should wear a facemask when you are around other people (e.g., sharing a room or vehicle) or pets and before you enter a healthcare provider’s office.</string>
+    <string name="aminfected10">If you are caring for others: If the person who is sick is not able to wear a facemask (for example, because it causes trouble breathing), then people who live with the person who is sick should not stay in the same room with them, or they should wear a facemask if they enter a room with the person who is sick.</string>
+    <string name="aminfected11">Cover: Cover your mouth and nose with a tissue when you cough or sneeze.</string>
+    <string name="aminfected12">Dispose: Throw used tissues in a lined trash can.</string>
+    <string name="aminfected13">Wash hands: Immediately wash your hands with soap and water for at least 20 seconds or, if soap and water are not available, clean your hands with an alcohol-based hand sanitizer that contains at least 60% alcohol.</string>
+    <string name="aminfected14">Seek medical attention: Seek prompt medical attention if your illness is worsening (e.g., difficulty breathing).</string>
+    <string name="aminfected15">Wear a facemask when sick: Put on a facemask before you enter the facility. These steps will help the healthcare provider’s office to keep other people in the office or waiting room from getting infected or exposed.</string>
+    <string name="aminfected16">Alert health department: Ask your healthcare provider to call the local or state health department. Persons who are placed under active monitoring or facilitated self-monitoring should follow instructions provided by their local health department or occupational health professionals, as appropriate.</string>
+    <string name="s1infec1">Household members, intimate partners, and caregivers in a nonhealthcare setting may have close contact with a person with symptomatic, laboratory-confirmed COVID-19 or a person under investigation. Close contacts should monitor their health; they should call their healthcare provider right away if they develop symptoms suggestive of COVID-19 (e.g., fever, cough, shortness of breath)</string>
+    <string name="s1infec2">Make sure that you understand and can help the patient follow their healthcare provider’s instructions for medication(s) and care. You should help the patient with basic needs in the home and provide support for getting groceries, prescriptions, and other personal needs.</string>
+    <string name="s1infec3">Monitor the patient’s symptoms. If the patient is getting sicker, call his or her healthcare provider and tell them that the patient has laboratory-confirmed COVID-19. This will help the healthcare provider’s office take steps to keep other people in the office or waiting room from getting infected. Ask the healthcare provider to call the local or state health department for additional guidance. If the patient has a medical emergency and you need to call 102, notify the dispatch personnel that the patient has, or is being evaluated for COVID-19.</string>
+    <string name="s1infec4">Household members should stay in another room or be separated from the patient as much as possible. Household members should use a separate bedroom and bathroom, if available.</string>
+    <string name="s1infec5">Make sure that shared spaces in the home have good air flow, such as by an air conditioner or an opened window, weather permitting.</string>
+    <string name="s1infec7">Perform hand hygiene frequently. Wash your hands often with soap and water for at least 20 seconds or use an alcohol-based hand sanitizer that contains 60 to 95% alcohol, covering all surfaces of your hands and rubbing them together until they feel dry. Soap and water should be used preferentially if hands are visibly dirty.</string>
+    <string name="s1infec8">The patient should wear a facemask when you are around other people. If the patient is not able to wear a facemask (for example, because it causes trouble breathing), you, as the caregiver, should wear a mask when you are in the same room as the patient.</string>
+    <string name="s1infec9">Avoid sharing household items with the patient. You should not share dishes, drinking glasses, cups, eating utensils, towels, bedding, or other items. After the patient uses these items, you should wash them thoroughly (see below “Wash laundry thoroughly”).</string>
+    <string name="s1infec10">Place all used disposable gloves, facemasks, and other contaminated items in a lined container before disposing of them with other household waste. Clean your hands (with soap and water or an alcohol-based hand sanitizer) immediately after handling these items. Soap and water should be used preferentially if hands are visibly dirty.</string>
+    <string name="homiso1">Home isolation measures for people with confirmed or suspected COVID-19 who do not need to be hospitalized and people who were hospitalized and then determined to be medically stable to go home.</string>
+    <string name="homiso2">Well ventilated non AC room</string>
+    <string name="homiso3">Windows kept open during day time</string>
+    <string name="homiso4">Room should have attached bathroom or separate bathroom for the suspected patient.</string>
+    <string name="homiso5">Do not share utensils, linen or other items.</string>
+    <string name="homiso6">Practice frequent handwashing with soap and water especially after toilet or contact with body fluids.</string>
+    <string name="homiso7">Room should be mopped with bleach solution</string>
+    <string name="homiso8">Bleach solution can be used to clean furniture, wash basin, toilet seats etc</string>
+    <string name="homiso9">Alcohol based hand rub at the room entrance to be used by care giver</string>
+    <string name="homiso10">No visitors should be allowed</string>
+    <string name="homiso11">Should not attend meetings, social gatherings, parties etc</string>
+    <string name="homiso13">Avoid public transport</string>
+    <string name="donations">Donations</string>
+    <string name="telegram">Telegram</string>
+    <string name="whatsapp">WhatsApp</string>
+    <string name="report">Report cases</string>
+    <string name="helpline">Helpline number</string>
+    <string name="exercise"><![CDATA[Yoga & exercises]]></string>
+    <string name="yogatext">Harvard Medical School recommends yoga to deal with Corona</string>
+    <string name="yoga1">A leading medical school in the US has recommended yoga, meditation and controlled breathing to address anxiety issues related to the novel coronavirus that has now spread fast across America.  There are at least 3,485 cases of the novel coronavirus in the US, according to the state and local health agencies, governments and the US Centers for Disease Control and Prevention.</string>
+    <string name="yoga2">Here we have helpful Yoga for you</string>
+    <string name="web_client_id">260735529327-fuaj231h0s4a6vcnlbqil0j3v189rfk6.apps.googleusercontent.com</string>
+    <string name="desc_firebase_lockup">Firebase logo and name</string>
+    <string name="auth_failed">Authentication failed</string>
+    <string name="emailpassword_status_fmt">Email User: %1$s (verified: %2$b)</string>
+    <string name="firebase_status_fmt">Firebase UID: %s</string>
+    <string name="signed_out">Signed Out</string>
+    <string name="donationstitle">We need your help. Help others by donating what you can</string>
+    <string name="selectoption">Select an option you want to donate  <font fgcolor='#ffff4444'>*</font></string>
+    <string name="selectfoodq">Select food quality</string>
+    <string name="quantity">"Quantity "</string>
+    <string name="expirydate">Expiry date</string>
+    <string name="address">"Address "</string>
+    <string name="yourname">Your name</string>
+    <string name="medname">Medicine name</string>
+    <string name="medbrand">Medicine brand</string>
+    <string name="selectmedtype">Select medicine type</string>
+    <string name="amount">Amount (INR)</string>
+    <string name="reasontodonate">Reason to donate</string>
+    <string name="forqueirs">For any queries please contact meaning +919584215603</string>
+    <string name="next">Next</string>
+    <string name="get_started">Get started</string>
+    <string name="skip">Skip</string>
+    <string-array name="doptions">
+        <item>Foods</item>
+        <item>Sanitizers</item>
+        <item>Medicines</item>
+        <item>Funds</item>
+    </string-array>
+    <string-array name="foodarray">
+        <item>Fresh</item>
+        <item>Good</item>
+        <item>Average</item>
+    </string-array>
+    <string-array name="medtypearray">
+        <item>Liquid</item>
+        <item>Tablets</item>
+        <item>Powder</item>
+        <item>Other</item>
+    </string-array>
+</resources>

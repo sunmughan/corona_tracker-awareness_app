@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.quarantinealert">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.STORAGE" />
+
+    <application
+        android:name="com.quarantinealert.app.MainApplication"
+        android:allowBackup="false"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:networkSecurityConfig="@xml/network_config"
+        android:requestLegacyExternalStorage="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.quarantinealert.review.ReviewActivity">
+            <intent-filter>
+            <action android:name="android.intent.action.GET_CONTENT" />
+            <category android:name="android.intent.category.DEFAULT" />
+            <category android:name="android.intent.category.OPENABLE" />
+
+            <data android:mimeType="*/*" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.quarantinealert.feature.LoginActivity" />
+        <activity android:name="com.quarantinealert.feature.donations.Donations" />
+        <activity android:name="com.quarantinealert.feature.media.imageviewer.MyGovList" /> <!-- Activity -->
+        <activity
+            android:name="com.quarantinealert.feature.credits.CreditsActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/GrayTheme" />
+        <activity
+            android:name="com.quarantinealert.feature.media.imageviewer.AllImages"
+            android:screenOrientation="portrait"
+            android:theme="@style/GrayTheme" />
+        <activity
+            android:name="com.quarantinealert.feature.webview.WebActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/GrayTheme" />
+        <activity
+            android:name="com.quarantinealert.feature.emergency.EmergencyActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/GrayTheme" />
+        <activity
+            android:name="com.quarantinealert.feature.yoga.YogaActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/GrayTheme" />
+        <activity
+            android:name="com.quarantinealert.feature.feedback.FeedbackActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/GrayTheme"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name="com.quarantinealert.feature.symptoms.SymptomsActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/GrayTheme" />
+        <activity
+            android:name="com.quarantinealert.feature.myth.MythActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/GrayTheme" />
+        <activity
+            android:name="com.quarantinealert.feature.myth.FAQActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/GrayTheme" />
+        <activity
+            android:name="com.quarantinealert.feature.helpline.HelplineActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/GrayTheme" />
+        <activity
+            android:name="com.quarantinealert.feature.media.imageviewer.ImageActivty"
+            android:screenOrientation="portrait"
+            android:theme="@style/GrayTheme" />
+        <activity
+            android:name="com.quarantinealert.feature.stages.StagesActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/GrayTheme" />
+        <activity
+            android:name="com.quarantinealert.feature.media.MediaActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/GrayTheme" />
+        <activity
+            android:name="com.quarantinealert.feature.global.GlobalCasesActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/GrayTheme" />
+        <activity
+            android:name="com.quarantinealert.feature.forms.FormsActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/GrayTheme" />
+        <activity
+            android:name="com.quarantinealert.feature.search.SearchActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/SearchTheme" />
+        <activity
+            android:name="com.quarantinealert.feature.home.HomeActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@style/HomeTheme" />
+        <activity
+            android:name="com.quarantinealert.feature.splash.SplashActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@style/WhiteTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.quarantinealert.feature.slider.OnBoardingActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/OnBoarding" /> <!-- Service -->
+
+        <service
+            android:name=".firebase.fcm.MyFirebaseMessagingService">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>
+
+        <service
+            android:name="com.quarantinealert.firebase.fcm.CovidMessagingService"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service> <!-- Meta-data -->
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_icon"
+            android:resource="@drawable/ic_notification" />
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_color"
+            android:resource="@color/redAccent" />
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="${mapApiKeyValue}" />
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="com.quarantinealert.provider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths"
+                tools:replace="android:resource" />
+        </provider>
+    </application>
+
+</manifest>

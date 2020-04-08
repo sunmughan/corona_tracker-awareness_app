@@ -1,0 +1,379 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ede7f6"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/carlay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <com.google.android.material.card.MaterialCardView
+            android:layout_marginTop="12dp"
+            android:layout_marginStart="12dp"
+            android:layout_marginEnd="12dp"
+            android:layout_marginBottom="12dp"
+            android:id="@+id/card1"
+            app:cardCornerRadius="4dp"
+            app:cardElevation="6dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:clipToPadding="true"
+                android:layout_width="match_parent"
+                android:background="@color/colorPrimary"
+                android:layout_height="8dp"
+                android:orientation="vertical">
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginBottom="15dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginEnd="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:fontFamily="@font/quicksand_semibold"
+                    android:textSize="18dp"
+                    android:textColor="@android:color/black"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/volutitle" />
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/quicksand_medium"
+                    android:textColor="@android:color/holo_red_light"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/required" />
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+        <com.google.android.material.card.MaterialCardView
+            android:layout_marginStart="12dp"
+            android:layout_marginEnd="12dp"
+            android:layout_marginBottom="12dp"
+            app:cardCornerRadius="4dp"
+            app:cardElevation="6dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginEnd="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:fontFamily="@font/quicksand_medium"
+                    android:textColor="@android:color/black"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/name" />
+
+                <EditText
+                    app:hintAnimationEnabled="true"
+                    android:layout_marginTop="6dp"
+                    android:id="@+id/edtnamedisplay"
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:background="@null"
+                    android:fontFamily="@font/quicksand_medium"
+                    android:hint="@string/youranswer"
+                    app:hintEnabled="true"
+                    android:textColorHint="@color/gray"
+                    android:inputType="textCapWords"
+                    android:textColor="@android:color/black"
+                    android:textSize="15dp">
+                </EditText>
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+        <com.google.android.material.card.MaterialCardView
+            android:layout_marginStart="12dp"
+            android:layout_marginEnd="12dp"
+            android:layout_marginBottom="12dp"
+            app:cardCornerRadius="4dp"
+            app:cardElevation="6dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginEnd="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:fontFamily="@font/quicksand_medium"
+                    android:textColor="@android:color/black"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/email" />
+
+                <EditText
+                    app:hintAnimationEnabled="true"
+                    android:layout_marginTop="6dp"
+                    android:id="@+id/edtmaildisplay"
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:background="@null"
+                    android:fontFamily="@font/quicksand_medium"
+                    android:hint="@string/youranswer"
+                    app:hintEnabled="true"
+                    android:textColorHint="@color/gray"
+                    android:inputType="textEmailAddress"
+                    android:textColor="@android:color/black"
+                    android:textSize="15dp">
+                </EditText>
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+        <com.google.android.material.card.MaterialCardView
+            android:layout_marginStart="12dp"
+            android:layout_marginEnd="12dp"
+            android:layout_marginBottom="12dp"
+            app:cardCornerRadius="4dp"
+            app:cardElevation="6dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginEnd="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:fontFamily="@font/quicksand_medium"
+                    android:textColor="@android:color/black"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/number" />
+
+                <EditText
+                    app:hintAnimationEnabled="true"
+                    android:layout_marginTop="6dp"
+                    android:id="@+id/edtnumdisplay"
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:background="@null"
+                    android:fontFamily="@font/quicksand_medium"
+                    android:hint="@string/youranswer"
+                    app:hintEnabled="true"
+                    android:textColorHint="@color/gray"
+                    android:inputType="number"
+                    android:maxLength="10"
+                    android:textColor="@android:color/black"
+                    android:textSize="15dp">
+                </EditText>
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+        <com.google.android.material.card.MaterialCardView
+            android:layout_marginStart="12dp"
+            android:layout_marginEnd="12dp"
+            android:layout_marginBottom="12dp"
+            app:cardCornerRadius="4dp"
+            app:cardElevation="6dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginEnd="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:fontFamily="@font/quicksand_medium"
+                    android:textColor="@android:color/black"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/location" />
+
+                <EditText
+                    app:hintAnimationEnabled="true"
+                    android:layout_marginTop="6dp"
+                    android:id="@+id/edtlocdisplay"
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:background="@null"
+                    android:fontFamily="@font/quicksand_medium"
+                    android:hint="@string/youranswer"
+                    app:hintEnabled="true"
+                    android:textColorHint="@color/gray"
+                    android:inputType="textCapWords"
+                    android:maxLength="10"
+                    android:textColor="@android:color/black"
+                    android:textSize="15dp">
+                </EditText>
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+        <com.google.android.material.card.MaterialCardView
+            android:layout_marginStart="12dp"
+            android:layout_marginEnd="12dp"
+            android:layout_marginBottom="12dp"
+            app:cardCornerRadius="4dp"
+            app:cardElevation="6dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginEnd="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:fontFamily="@font/quicksand_medium"
+                    android:textColor="@android:color/black"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/devp" />
+
+                <EditText
+                    app:hintAnimationEnabled="true"
+                    android:layout_marginTop="6dp"
+                    android:id="@+id/edtdevpdisplay"
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:background="@null"
+                    android:fontFamily="@font/quicksand_medium"
+                    android:hint="@string/youranswer"
+                    app:hintEnabled="true"
+                    android:textColorHint="@color/gray"
+                    android:inputType="textCapWords"
+                    android:textColor="@android:color/black"
+                    android:textSize="15dp">
+                </EditText>
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+        <com.google.android.material.card.MaterialCardView
+            android:layout_marginStart="12dp"
+            android:layout_marginEnd="12dp"
+            android:layout_marginBottom="12dp"
+            app:cardCornerRadius="4dp"
+            app:cardElevation="6dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginEnd="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:fontFamily="@font/quicksand_medium"
+                    android:textColor="@android:color/black"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/selvol" />
+
+                <RadioGroup
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="6dp"
+                    android:layout_marginBottom="10dp"
+                    android:weightSum="1"
+                    android:id="@+id/radioGroup">
+
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="36dp"
+                        android:text="Awareness"
+                        android:fontFamily="@font/quicksand_medium"
+                        android:id="@+id/awarerbtn"
+                        android:checked="false"
+                        android:textSize="15dp" />
+
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="36dp"
+                        android:text="Medicals"
+                        android:fontFamily="@font/quicksand_medium"
+                        android:id="@+id/medrbtn"
+                        android:checked="false"
+                        android:textSize="15dp" />
+
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="36dp"
+                        android:text="Hospitals"
+                        android:fontFamily="@font/quicksand_medium"
+                        android:id="@+id/hosrbtn"
+                        android:checked="false"
+                        android:textSize="15dp" />
+
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="36dp"
+                        android:text="Social Hands"
+                        android:fontFamily="@font/quicksand_medium"
+                        android:id="@+id/socialrbtn"
+                        android:checked="false"
+                        android:textSize="15dp" />
+
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="36dp"
+                        android:text="Food Collection &amp; Delivery"
+                        android:fontFamily="@font/quicksand_medium"
+                        android:id="@+id/foodrbtn"
+                        android:checked="false"
+                        android:textSize="15dp" />
+
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="36dp"
+                        android:text="Funds Collection &amp; Donation"
+                        android:fontFamily="@font/quicksand_medium"
+                        android:id="@+id/fundsrbtn"
+                        android:checked="false"
+                        android:textSize="15dp" />
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="36dp"
+                        android:text="Other"
+                        android:fontFamily="@font/quicksand_medium"
+                        android:id="@+id/otherbtn"
+                        android:checked="false"
+                        android:textSize="15dp" />
+
+                </RadioGroup>
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/sendButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="12dp"
+            android:layout_marginEnd="12dp"
+            android:layout_marginBottom="12dp"
+            android:fontFamily="@font/quicksand_medium"
+            android:text="@string/submit"
+            android:textAllCaps="false"
+            app:backgroundTint="@color/redAccent"
+            app:cornerRadius="6dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+    </LinearLayout>
+
+</ScrollView>
