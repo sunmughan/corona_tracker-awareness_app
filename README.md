@@ -25,7 +25,7 @@ The app has three modules:
 
 ## Youtube Video ##
 
-☞ Uploading soon......
+[![Youtube](https://github.com/sunmughan/corona_tracker-awareness_app/blob/master/assets/Qalert.png)](https://m.youtube.com/watch?v=QkThp2ZLN7c)
 
 ## Contribution ##
 If you want to contribute us in making the app better and more userful, you're most welcome.
