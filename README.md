@@ -15,5 +15,6 @@ Quarantine Alert is a mobile application that allows users to complete daily hea
 
 ## Modules of Quarantine Alert App ##
 The app has three modules:
-!(assets/modules.png)
+
+!(https://github.com/sunmughan/Quarantine_Alert/blob/master/assets/modules.png)
 
