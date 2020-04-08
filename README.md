@@ -18,6 +18,15 @@ The app has three modules:
 
 ![App Modules](https://github.com/sunmughan/Quarantine_Alert/blob/master/assets/modules.png)
 
+## App Screenshots ##
+
+![SS1](https://github.com/sunmughan/Quarantine_Alert/blob/master/assets/App-1.png) 
+![SS2](https://github.com/sunmughan/Quarantine_Alert/blob/master/assets/App-2.png) ![SS3](https://github.com/sunmughan/Quarantine_Alert/blob/master/assets/App-3.png) ![SS4](https://github.com/sunmughan/Quarantine_Alert/blob/master/assets/App-4.png) ![SS5](https://github.com/sunmughan/Quarantine_Alert/blob/master/assets/App-5.png) ![SS6](https://github.com/sunmughan/Quarantine_Alert/blob/master/assets/App-6.png) ![SS7](https://github.com/sunmughan/Quarantine_Alert/blob/master/assets/App-7.png) ![SS8](https://github.com/sunmughan/Quarantine_Alert/blob/master/assets/App-8.png) ![SS9](https://github.com/sunmughan/Quarantine_Alert/blob/master/assets/App-9.png) ![SS10](https://github.com/sunmughan/Quarantine_Alert/blob/master/assets/App-10.png) ![SS11](https://github.com/sunmughan/Quarantine_Alert/blob/master/assets/App-11.png) ![SS12](https://github.com/sunmughan/Quarantine_Alert/blob/master/assets/App-12.png) ![SS13](https://github.com/sunmughan/Quarantine_Alert/blob/master/assets/App-13.png) ![SS14](https://github.com/sunmughan/Quarantine_Alert/blob/master/assets/App-14.png) ![SS15](https://github.com/sunmughan/Quarantine_Alert/blob/master/assets/App-15.png) ![SS16](https://github.com/sunmughan/Quarantine_Alert/blob/master/assets/App-16.png) ![SS17](https://github.com/sunmughan/Quarantine_Alert/blob/master/assets/App-17.png) ![SS18](https://github.com/sunmughan/Quarantine_Alert/blob/master/assets/App-18.png) ![SS19](https://github.com/sunmughan/Quarantine_Alert/blob/master/assets/App-19.png) ![SS20](https://github.com/sunmughan/Quarantine_Alert/blob/master/assets/App-20.png) ![SS21](https://github.com/sunmughan/Quarantine_Alert/blob/master/assets/App-21.png) ![SS22](https://github.com/sunmughan/Quarantine_Alert/blob/master/assets/App-22.png) ![SS23](https://github.com/sunmughan/Quarantine_Alert/blob/master/assets/App-23.png) ![SS24](https://github.com/sunmughan/Quarantine_Alert/blob/master/assets/App-24.png)
+
+## Youtube Video ##
+
+☞ Uploading soon......
+
 ## Contribution ##
 If you want to contribute us in making the app better and more userful, you're most welcome.
 Kindly contact me: sunmughan@gmail.com
