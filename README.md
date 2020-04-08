@@ -15,16 +15,5 @@ Quarantine Alert is a mobile application that allows users to complete daily hea
 
 ## Modules of Quarantine Alert App ##
 The app has three modules:
+!(assets/modules.png)
 
-        Users         |          Doctor (WIP)          | Patient Tracker
-☞ Login              | ☞ Get alert on new patients   | User current location 
-☞ Global Stats       | ☞ Matvh revords with Govt.    | Past location history
-☞ Search Locations   | ☞ Monitor Patients            | Offline location logging
-☞ Read Contents      | ☞ Schedule Quarantine         | Alert when 2 devices are near
-☞ Submit Forms       | ☞ Mark patient (+ve/-ve)      | Import/Export data
-☞ Submit New Patient | ☞ Report Teammates            | Google map view
-☞ Donate             | ☞ Patient Authenticity        | Gps/Bluetooth pairing
-☞ Watch Videos       | ☞ Emergency consultation      |
-☞ Share Media        |                                | 
-☞ Read Documents     |                                |
-☞ Adding more..      |
