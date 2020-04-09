@@ -32,7 +32,6 @@ If you want to contribute us in making the app better and more userful, you're m
 Kindly contact me: sunmughan@gmail.com
 
 ## Credits ##
-* MIT (Private Kit)
 * Sunmughan Swamy
 * Gaurav Shukla
 * BalKrishna Swami
