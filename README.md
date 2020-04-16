@@ -31,6 +31,9 @@ The app has three modules:
 If you want to contribute us in making the app better and more userful, you're most welcome.
 Kindly contact me: sunmughan@gmail.com
 
+## Note ##
+Due to huge amount of projects i will not commit changes in this repository but i will keep releqsing new updates here. Sources will be out if requested for educational or healthcare purpose with new changelogs.
+
 ## Credits ##
 * Sunmughan Swamy
 * Gaurav Shukla
