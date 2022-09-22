@@ -38,4 +38,3 @@ Due to huge amount of projects i will not commit changes in this repository but 
 * Sunmughan Swamy
 * Gaurav Shukla
 * BalKrishna Swami
-* Dr. Ravi
